@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variant 12 – Flex</title>
+  <link rel="stylesheet" href="../css/styles-flex.css">
+</head>
+<body>
+<div class="outer-container">
+  <!-- ROW 1: nav (1fr) + header (2fr) -->
+  <div class="row row1">
+    <nav class="nav">
+      <h3>Navigation Menu</h3>
+      <ul>
+        <li><a href="../html_contentPage/aboutUsPage.html">About Us</a></li>
+        <li><a href="../html_contentPage/faqPage.html">FAQ</a></li>
+        <li><a href="../html_contentPage/contactUsPage.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <ul>
+        <li><a href="mainPage-flex.html">BlackFunnel</a></li>
+      </ul>
+      <p>Asset management partner</p>
+    </header>
+  </div>
+
+  <!-- ROW 2: nav (duplicate), main (2fr), section (1fr) -->
+  <div class="row row2">
+    <nav class="nav-duplicate">
+      <ul>
+        <li>&bull;</li>
+        <li>&bull;</li>
+        <li>&bull;</li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <h2>Main Content</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li><a href="../html_mainPage/mainPage-grid.html">Grid Layout</a></li>
+        <li><a href="../html_mainPage/mainPage-basic.html">Basic Layout</a></li>
+      </ul>
+
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Lorem ipsum dolor sit amet</li>
+        <li>Consectetur adipiscing elit</li>
+        <li>Sed do eiusmod tempor</li>
+      </ol>
+
+      <h3>Image and Map</h3>
+      <p>Locate and allocate assets for</p>
+      <img src="../png_files/axecapital.png" alt="Example" usemap="#imagemap" width="500" />
+      <map name="imagemap">
+        <area shape="default" href="https://giphy.com/embed/YAXv9WtdI5ORTMnILm" alt="Example">
+      </map>
+    </main>
+
+    <section class="section">
+      <h3>Additional Section</h3>
+      <p>Backed by... Praesent vulputate purus quis libero varius, sed lacinia nisl condimentum...</p>
+      <ul>
+        <li><a href="../html_contentPage/partnersAndClients.html">Partners & Clients</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- FOOTER: spans full width -->
+  <footer class="footer">
+    <h4>&copy; 2024 BlackFunnel.</h4>
+    <ul>
+      <li><a href="https://facebook.com">Facebook</a></li>
+      <li><a href="https://twitter.com">Twitter</a></li>
+      <li><a href="https://linkedin.com">LinkedIn</a></li>
+    </ul>
+  </footer>
+</div>
+</body>
+</html>
